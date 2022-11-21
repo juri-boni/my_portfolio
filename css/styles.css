@@ -3,9 +3,10 @@
 
 .header {
   display: flex;
+
   align-items: center;
   justify-content: space-between;
-  height: 6.4rem;
+  height: 9.6rem;
   padding: 2.6rem 2.6rem 2.6rem 0;
   margin-left: 9.6rem;
   margin-right: 2rem;
@@ -29,12 +30,12 @@
 
 .main-nav-logo:hover,
 .main-nav-logo:active {
-  color: #aea294;
-  transform: scale(1.1);
+  color: #4717f6;
+  transform: scale(1.2);
 }
 
 .dot {
-  color: #584e41;
+  color: #ff0075;
 }
 
 .main-nav-list {
@@ -48,42 +49,49 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #555;
+  color: #010101;
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   transition: all 0.4s;
 }
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #aea294;
+  color: #ff0075;
   transform: scale(1.1);
 }
 
 /*****************************/
-/*HERO*/
+/*HERO SECTION*/
 
 .section-hero {
   display: grid;
+  background-color: #0e0b16;
   grid-template-columns: repeat(2, 1fr);
   margin-right: 2rem;
+  margin-left: 9.6rem;
   padding: 0 0 9.6rem 9.6rem;
   height: 64rem;
   margin-bottom: 0 0 3.2rem 2rem;
-  border-bottom: 1px solid rgba(190, 190, 190, 0.376);
+  border-bottom: 1px solid rgba(255, 254, 254, 0.376);
 }
 
 .title {
+  color: #ff0075;
   margin-top: 9.6rem;
   font-size: 6.4rem;
   padding: 0 2.4rem 3.2rem 0;
 }
 
+.title > span {
+  color: #4717f6;
+}
+
 .subtitle {
-  font-size: 3.2rem;
+  font-size: 4rem;
   letter-spacing: 2.7px;
-  margin-bottom: 3.2rem;
-  color: #31281d;
+  margin-bottom: 8rem;
+  color: #dfd7f9;
 }
 
 .hero-description {
@@ -91,10 +99,13 @@
   margin-bottom: 9.6rem;
   font-weight: 500;
   font-size: 2.2rem;
+  color: #dfd7f9;
 }
 
 .links-title {
-  margin-bottom: 3.2rem;
+  margin-bottom: 4rem;
+  font-size: 1.8rem;
+  color: #dfd7f9;
 }
 
 .contacts-list {
@@ -107,7 +118,7 @@
 .social-icon {
   height: 3.2rem;
   width: 3.2rem;
-  color: #333;
+  color: #dfd7f9;
   transition: all 0.4s;
 }
 
@@ -137,7 +148,7 @@
   font-size: 4.4rem;
   letter-spacing: 1.7px;
   margin-bottom: 3.2rem;
-  color: #31281d;
+  color: #010101;
 }
 
 .project-description {
@@ -147,7 +158,7 @@
   font-size: 3rem;
   letter-spacing: 1.8px;
   margin-bottom: 4rem;
-  color: #777;
+  color: #010101;
 }
 
 .description-text {
@@ -175,8 +186,8 @@
   border-radius: 100px;
   transition: all 0.2s;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-  background-color: #6bcfb1;
-  color: #2b2d2f;
+  background-color: #010101;
+  color: #dfd7f9;
 }
 
 .btn-inverted:hover {
@@ -238,8 +249,8 @@
   border-radius: 100px;
   transition: all 0.2s;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-  background-color: #2b2d2f;
-  color: #6bcfb1;
+  background-color: #010101d2;
+  color: #ff0075;
 }
 
 .btn:hover {
