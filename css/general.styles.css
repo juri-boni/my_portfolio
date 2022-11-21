@@ -19,8 +19,8 @@ Paragraph default: 1.6
 Large: 1.8
 
 -Letter spacing
-  -0.5px  
-  0.75px
+  1.7px
+  2.7
 
 
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -69,4 +69,36 @@ body {
   font-weight: 400;
   color: #444;
   background-color: #fffff9;
+}
+
+/*REUSABLE CODE*/
+
+.grid-3-cols {
+  --gap: 1.2rem;
+  --num-cols: 3;
+  --row-height: 20rem;
+  --column-width: 35rem;
+
+  padding: var(--gap);
+
+  display: grid;
+  grid-template-columns: repeat(var(--num-cols), 1fr);
+  grid-auto-rows: var(--row-height);
+  gap: var(--gap);
+  grid-auto-columns: var(--column-width);
+}
+
+.grid-2-cols {
+  --gap: 4rem;
+  --num-cols: 2;
+  --row-height: 20rem;
+  --column-width: 35rem;
+
+  padding: var(--gap);
+
+  display: grid;
+  grid-template-columns: 1.5fr 2.5fr;
+  gap: var(--gap);
+  /* grid-auto-rows: var(--row-height);
+  grid-auto-columns: var(--column-width); */
 }
