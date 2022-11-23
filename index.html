@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./css/general.styles.css" />
     <link rel="stylesheet" href="./css/styles.css" />
 
+    <script defer src="/script.js"></script>
+
     <title>My Portfolio</title>
   </head>
   <body>
@@ -24,9 +26,9 @@
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#">Home</a></li>
-          <li><a class="main-nav-link" href="#">About</a></li>
-          <li><a class="main-nav-link" href="#">Projects</a></li>
-          <li><a class="main-nav-link" href="#">Gallery</a></li>
+          <li><a class="main-nav-link" href="#projects">Projects</a></li>
+          <li><a class="main-nav-link" href="#about">About</a></li>
+          <li><a class="main-nav-link" href="#gallery">Gallery</a></li>
         </ul>
       </nav>
     </header>
@@ -34,7 +36,7 @@
     <!-- HERO SECTION -->
 
     <main>
-      <div class="section-hero">
+      <section class="section-hero">
         <div class="hero-info-container">
           <h1 class="title"><span>Hi!</span> I Am Juri Boni</h1>
           <h3 class="subtitle">Front End Developer</h3>
@@ -82,11 +84,11 @@
         <div class="photo-container">
           <img class="info-img" src="" alt="" />
         </div>
-      </div>
+      </section>
 
       <!--   SECTION PROJECTS   -->
 
-      <div class="section-projects">
+      <section class="section-projects" id="projects">
         <h2 class="projects-title">Projects</h2>
 
         <div class="projects-container grid-2-cols">
@@ -291,7 +293,11 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <section class="about" id="about">
+        <!-- <h1 class="about-title">THIS IS THE ABOUT SECTION</h1> -->
+      </section>
     </main>
     <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
