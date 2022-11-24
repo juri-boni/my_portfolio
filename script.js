@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////////
 //Smooth scrolling animation
 
-const allLinks = document.querySelectorAll("a:link");
+const allLinks = document.querySelectorAll('a[href^="#"]');
 console.log(allLinks);
 
 allLinks.forEach((link) => {
