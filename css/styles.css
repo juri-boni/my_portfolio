@@ -19,10 +19,11 @@
 
 .main-nav-logo:link,
 .main-nav-logo:visited {
-  color: #010101;
+  color: #111;
   display: inline-block;
-  font-size: 3.6rem;
+  font-size: 4.4rem;
   font-weight: 600;
+  letter-spacing: 1.5px;
   text-decoration: none;
   transition: all 0.4s;
   letter-spacing: 1px;
@@ -30,12 +31,12 @@
 
 .main-nav-logo:hover,
 .main-nav-logo:active {
-  color: #4717f6;
+  color: #ab2f26;
   transform: scale(1.2);
 }
 
 .dot {
-  color: #ff0075;
+  color: #ab2f26;
 }
 
 .main-nav-list {
@@ -49,7 +50,8 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #010101;
+  letter-spacing: 1.1px;
+  color: #111;
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.4s;
@@ -57,9 +59,14 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #ff0075;
-  transform: scale(1.1);
+  color: #ab2f26;
+  transform: scale(1.2);
 }
+
+/* .info-img {
+  height: 80%;
+  width: 100%;
+} */
 
 /* STICKY NAVIGATION */
 .sticky .header {
@@ -85,117 +92,133 @@
 
 .section-hero {
   display: grid;
-  background-color: #0e0b16;
-  grid-template-columns: repeat(2, 1fr);
-  margin-right: 2rem;
+  background-color: #111;
+  grid-template-columns: 2fr 1fr;
+  /* margin-right: 9.6rem; */
   margin-left: 9.6rem;
   padding: 0 0 9.6rem 9.6rem;
-  height: 64rem;
-  margin-bottom: 0 0 3.2rem 2rem;
+  height: 90vh;
+  margin: 0 0 0 2rem;
   border-bottom: 1px solid rgba(255, 254, 254, 0.376);
 }
 
 .title {
-  color: #ff0075;
+  color: #fff;
   margin-top: 9.6rem;
-  font-size: 6.4rem;
+  margin-bottom: 2rem;
+  font-size: 7.4rem;
+  font-weight: 600;
+  letter-spacing: 5px;
   padding: 0 2.4rem 3.2rem 0;
 }
 
 .title > span {
-  color: #4717f6;
+  color: #ab2f26;
 }
 
 .subtitle {
-  font-size: 4rem;
+  font-size: 5.2rem;
   letter-spacing: 2.7px;
-  margin-bottom: 8rem;
-  color: #dfd7f9;
+  margin-bottom: 9.6rem;
+  color: #f5f5f5;
 }
 
 .hero-description {
   display: inline-block;
-  margin-bottom: 9.6rem;
+  margin-bottom: 12.8rem;
   font-weight: 500;
   font-size: 2.2rem;
-  color: #dfd7f9;
+  color: #eeeeee;
 }
 
-.links-title {
+/* .links-title {
   margin-bottom: 4rem;
   font-size: 1.8rem;
-  color: #dfd7f9;
+  color: #f5f5f5;
+} */
+
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: baseline;
+  padding: 12.8rem 3.2rem 0 0;
 }
 
 .contacts-list {
   display: flex;
-  flex-direction: row;
-  gap: 4.8rem;
+  flex-direction: column;
+  gap: 3.2rem;
   list-style: none;
+  /* padding: 6.4rem 3.2rem 0 0; */
 }
 
 .social-icon {
-  height: 3.2rem;
-  width: 3.2rem;
-  color: #dfd7f9;
+  height: 4rem;
+  width: 4rem;
+  color: #f5f5f5;
   transition: all 0.4s;
 }
 
 .social-icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 
-.photo-container {
-  background-color: #ddd0c1;
+/* .photo-container {
+  background-color: #f5f5f5;
   border-left: 1px solidrgba(190, 190, 190, 0.376);
 }
 
 .info-img {
   width: 100%;
-}
+} */
 
 /********************************/
 
 /*SECTION PROJECTS*/
 
 .section-projects {
-  margin: 9.6rem 9.6rem 4.8rem 9.6rem;
-  padding: 3.2rem 3.2rem 3.2rem 3.2rem;
+  margin: 6.4rem 9.6rem 4.8rem 9.6rem;
+  padding: 6.4rem 3.2rem 3.2rem 6.4rem;
+  background-color: #feeceb84;
 }
 
 .projects-title {
   font-size: 4.4rem;
   letter-spacing: 1.7px;
   margin-bottom: 3.2rem;
-  color: #010101;
+  color: #111;
 }
 
 .project-description {
+  display: flex;
+  flex-direction: column;
 }
 
 .project-title {
   font-size: 3rem;
   letter-spacing: 1.8px;
   margin-bottom: 4rem;
-  color: #010101;
+  color: #424242;
 }
 
 .description-text {
   display: block;
   font-size: 1.4rem;
   line-height: 1.4;
-
-  margin-bottom: 12.8rem;
 }
 
 .description-text > span {
-  display: inline-block;
+  display: inline;
   margin-top: 2rem;
 }
 
 .btn-inverted:link,
 .btn-inverted:visited {
   /* margin-left: 4rem; */
+  align-self: center;
+  justify-self: center;
+  width: max-content;
   text-transform: capitalize;
   text-decoration: none;
   padding: 1.2rem 2rem;
@@ -205,8 +228,9 @@
   border-radius: 100px;
   transition: all 0.2s;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-  background-color: #010101;
-  color: #dfd7f9;
+  background-color: #310d0b;
+  color: #feeceb;
+  margin-right: 12rem;
 }
 
 .btn-inverted:hover {
@@ -268,8 +292,8 @@
   border-radius: 100px;
   transition: all 0.2s;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-  background-color: #010101;
-  color: #ff0075;
+  background-color: #111;
+  color: #fdd9d7;
 }
 
 .btn:hover {
