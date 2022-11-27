@@ -219,3 +219,43 @@
     padding: 1rem;
   }
 }
+
+/* BELOW 464px */
+
+@media (max-width: 29em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .header {
+    height: 6.4rem;
+    margin-right: 0;
+  }
+
+  .main-nav {
+    padding-right: 2rem;
+  }
+
+  .sticky .header {
+    height: 6rem;
+  }
+
+  .section-hero {
+    grid-template-columns: 3fr 1fr;
+    height: 95vh;
+  }
+
+  .title {
+    /* margin-top: 8rem; */
+    letter-spacing: 1.4px;
+  }
+
+  .subtitle {
+    letter-spacing: 1.7px;
+    margin-bottom: 16rem;
+  }
+
+  .contacts-list {
+    gap: 5.6rem;
+  }
+}

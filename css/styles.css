@@ -129,6 +129,7 @@
   font-weight: 500;
   font-size: 2.2rem;
   color: #eeeeee;
+  line-height: 1.6;
 }
 
 /* .links-title {
@@ -180,7 +181,8 @@
 .section-projects {
   margin: 6.4rem 9.6rem 4.8rem 9.6rem;
   padding: 6.4rem 3.2rem 3.2rem 6.4rem;
-  background-color: #feeceb84;
+  /* background-color: #feeceb84; */
+  background-color: #eee;
 }
 
 .projects-title {
@@ -190,9 +192,10 @@
   color: #111;
 }
 
-.project-description {
+.project-description-box {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .project-title {
@@ -216,21 +219,25 @@
 .btn-inverted:link,
 .btn-inverted:visited {
   /* margin-left: 4rem; */
-  align-self: center;
-  justify-self: center;
+  /* align-self: center;
+  justify-self: center; */
   width: max-content;
   text-transform: capitalize;
   text-decoration: none;
+  position: absolute;
   padding: 1.2rem 2rem;
   font-size: 1.5rem;
   font-weight: 500;
   display: inline-block;
   border-radius: 100px;
-  transition: all 0.2s;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
   background-color: #310d0b;
   color: #feeceb;
   margin-right: 12rem;
+  top: 80%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s;
 }
 
 .btn-inverted:hover {
