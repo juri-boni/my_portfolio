@@ -3,17 +3,14 @@
 /* ***************************************** */
 
 @media (max-width: 84em) {
-  .section-hero {
-    max-width: 120rem;
-  }
-  .header {
-    height: 8rem;
-    /* padding: 2rem 2.6rem 2rem 0; */
+  .section-projects {
+    margin: 9.6rem 6.4rem 4.8rem 6.4rem;
+    padding: 6.4rem 3.2rem 3.2rem 3.2rem;
   }
 }
 
 /* ***************************************** */
-/* BELOW 1270px (landscape tablets)*/
+/* BELOW 1200px (landscape tablets)*/
 /* ***************************************** */
 
 @media (max-width: 75em) {
@@ -21,63 +18,69 @@
     font-size: 56.25%;
   }
 
-  .header {
-    height: 7.2rem;
+  .section-projects {
+    margin: 9.6rem 5rem 4.8rem 5rem;
+    padding: 6.4rem 3.2rem 3.2rem 3.2rem;
   }
 
-  .title {
+  .project-img {
+    width: 85%;
   }
 }
 
 /* ***************************************** */
-/* BELOW 1100px */
+/* BELOW 1104px */
 /* ***************************************** */
 
 @media (max-width: 69em) {
+  .header {
+    height: 10vh;
+  }
+
+  .section-hero {
+    height: 90vh;
+  }
+
   .section-projects {
-    margin: 6.4rem 8rem 4.8rem 8rem;
+    margin: 6.4rem 4rem 4.8rem 4rem;
     padding: 4.8rem 2.4rem 2.4rem 4.8rem;
   }
 }
 
 /* ***************************************** */
-/* BELOW 980px */
+/* BELOW 976px */
 /* ***************************************** */
 
 @media (max-width: 61em) {
-  html {
-    /* 8px / 16px = 0.5 = 50% */
-    font-size: 50%;
-  }
-
-  .section-hero {
-    margin-left: 6.4rem;
-    margin-right: 4rem;
-  }
-
   .title {
     letter-spacing: 3px;
   }
 
   .section-projects {
-    margin: 6.4rem 6.4rem 4.8rem 6.4rem;
+    margin: 6.4rem 4.8rem 4.8rem 4.8rem;
     padding: 4.8rem 2.4rem 2.4rem 4.8rem;
   }
 
   .projects-title {
-    font-size: 4rem;
+    font-size: 4.4rem;
     letter-spacing: 1.2px;
   }
 
   .project-title {
+    font-size: 3rem;
     letter-spacing: 1.2px;
-    font-size: 2.4rem;
+    margin-bottom: 3.2rem;
   }
 
   .description-text {
     margin-bottom: 6.4rem;
-    line-height: 1.2;
-    font-size: 1.2rem;
+    line-height: 1.4;
+    font-size: 1.4rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    padding: 1.2rem 2rem;
   }
 
   .grid-2-cols {
@@ -91,11 +94,6 @@
 /* ***************************************** */
 
 @media (max-width: 49em) {
-  .header {
-    margin-left: 0;
-    padding: 2rem;
-  }
-
   .sticky .header {
     height: 6rem;
   }
@@ -104,20 +102,20 @@
     padding-right: 3.2rem;
   }
 
-  .main-nav-logo:link,
-  .main-nav-logo:visited {
-    font-size: 3.2rem;
-  }
-
   .section-hero {
-    grid-template-columns: 2.5fr 1fr;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0 2.4rem 6.4rem 6.4rem;
+    grid-template-columns: 2fr 1fr;
   }
 
   .title {
-    letter-spacing: 0.9px;
+    letter-spacing: 1px;
+  }
+
+  .subtitle {
+    margin-bottom: 9.6rem;
+  }
+
+  .hero-description {
+    margin-top: 8rem;
   }
 
   .section-projects {
@@ -155,11 +153,12 @@
 /* ***************************************** */
 
 @media (max-width: 40em) {
+  html {
+    font-size: 56.5%;
+  }
+
   .section-hero {
-    grid-template-columns: 2.7fr 1fr;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0 2rem 4rem 4rem;
+    padding: 8rem 2rem 4rem 4rem;
   }
 
   .title {
@@ -199,6 +198,10 @@
 /* BELOW 524px */
 
 @media (max-width: 33em) {
+  html {
+    font-size: 50%;
+  }
+
   .section-projects {
     margin: 0 0 0 0;
     padding: 6.4rem 3.2rem 3.2rem 3.2rem;

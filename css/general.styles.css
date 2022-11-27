@@ -191,7 +191,7 @@ body {
   padding: 4rem;
   display: grid;
   grid-template-columns: 1.5fr 2.5fr;
-  gap: 6rem;
+  gap: 12.8rem 4rem;
   /* grid-auto-rows: var(--row-height);
   grid-auto-columns: var(--column-width); */
 }
