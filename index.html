@@ -14,10 +14,11 @@
 
     <link rel="stylesheet" href="./css/general.styles.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <script defer src="/script.js"></script>
 
-    <title>My Portfolio</title>
+    <title>Juri Boni | Portfolio</title>
   </head>
   <body>
     <header class="header">
@@ -26,9 +27,9 @@
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#">Home</a></li>
+          <!-- <li><a class="main-nav-link" href="#about">About</a></li> -->
           <li><a class="main-nav-link" href="#projects">Projects</a></li>
-          <li><a class="main-nav-link" href="#about">About</a></li>
-          <li><a class="main-nav-link" href="#gallery">Gallery</a></li>
+          <!-- <li><a class="main-nav-link" href="#gallery">Gallery</a></li> -->
         </ul>
       </nav>
     </header>
@@ -40,50 +41,53 @@
         <div class="hero-info-container">
           <h1 class="title"><span>Hi!</span> I Am Juri Boni</h1>
           <h3 class="subtitle">Front End Developer</h3>
-          <span class="hero-description">Building user interfaces</span>
-          <div class="contacts-container">
-            <h3 class="links-title">Links</h3>
-            <ul class="contacts-list">
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/juriboni/"
-                  class="info-link"
-                  target="_blank"
-                  ><ion-icon
-                    class="social-icon logo-linkedin"
-                    name="logo-linkedin"
-                  ></ion-icon
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/juri-boni"
-                  class="info-link"
-                  target="_blank"
-                  ><ion-icon
-                    class="social-icon github"
-                    name="logo-github"
-                  ></ion-icon
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/juriboni/"
-                  class="info-link"
-                  target="_blank"
-                  ><ion-icon
-                    class="social-icon logo-instagram"
-                    name="logo-instagram"
-                  ></ion-icon
-                ></a>
-              </li>
-            </ul>
-          </div>
+          <span class="hero-description"
+            >I like to craft solid and scalable frontend products with great
+            user experiences.</span
+          >
+        </div>
+        <div class="contacts-container">
+          <!-- <h3 class="links-title">Links</h3> -->
+          <ul class="contacts-list">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/juriboni/"
+                class="info-link"
+                target="_blank"
+                ><ion-icon
+                  class="social-icon logo-linkedin"
+                  name="logo-linkedin"
+                ></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/juri-boni"
+                class="info-link"
+                target="_blank"
+                ><ion-icon
+                  class="social-icon github"
+                  name="logo-github"
+                ></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/juriboni/"
+                class="info-link"
+                target="_blank"
+                ><ion-icon
+                  class="social-icon logo-instagram"
+                  name="logo-instagram"
+                ></ion-icon
+              ></a>
+            </li>
+          </ul>
         </div>
 
-        <div class="photo-container">
-          <img class="info-img" src="" alt="" />
-        </div>
+        <!-- <div class="photo-container">
+          <img class="info-img" src="./img/profile.png" alt="" />
+        </div> -->
       </section>
 
       <!--   SECTION PROJECTS   -->
@@ -94,7 +98,7 @@
         <div class="projects-container grid-2-cols">
           <!-- Project 1 -->
 
-          <div class="project-description">
+          <div class="project-description-box">
             <h3 class="project-title">CrownClothing</h3>
             <p class="description-text">
               Real world e commerce built with React, using Firebase
@@ -127,7 +131,7 @@
 
           <!-- Project 2 -->
 
-          <div class="project-description">
+          <div class="project-description-box">
             <h3 class="project-title">Omnifood</h3>
             <p class="description-text">
               Example of food delivery app, built using only HTML and CSS
@@ -160,7 +164,7 @@
 
           <!-- Project 3 -->
 
-          <div class="project-description">
+          <div class="project-description-box">
             <h3 class="project-title">Forkify</h3>
             <p class="description-text">
               Recipe app. Search for recipes and create your own ones. All the
@@ -194,12 +198,14 @@
 
           <!-- Project 4 -->
 
-          <div class="project-description">
+          <div class="project-description-box">
             <h3 class="project-title">Bankist App</h3>
             <p class="description-text">
               Simple Bank app created with HTML, CSS and JavaScript.
+              <br />
 
               <span>[user 1: js - password 1: 1111]</span>
+              <br />
               <span>[user 2: jd - password 2: 2222]</span>
             </p>
             <a
@@ -230,7 +236,7 @@
 
           <!-- Project 5 -->
 
-          <div class="project-description">
+          <div class="project-description-box">
             <h3 class="project-title">Banksit</h3>
             <p class="description-text">Real world bank website</p>
             <a
@@ -261,7 +267,7 @@
 
           <!-- Project 6 -->
 
-          <div class="project-description">
+          <div class="project-description-box">
             <h3 class="project-title">Pig Game</h3>
             <p class="description-text">
               A simple dice game: roll the dice and add up. If the number 1

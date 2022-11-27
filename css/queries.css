@@ -1,0 +1,261 @@
+/* ***************************************** */
+/* BELOW 1344px (smaller desktops)*/
+/* ***************************************** */
+
+@media (max-width: 84em) {
+  .section-hero {
+    max-width: 120rem;
+  }
+  .header {
+    height: 8rem;
+    /* padding: 2rem 2.6rem 2rem 0; */
+  }
+}
+
+/* ***************************************** */
+/* BELOW 1270px (landscape tablets)*/
+/* ***************************************** */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .header {
+    height: 7.2rem;
+  }
+
+  .title {
+  }
+}
+
+/* ***************************************** */
+/* BELOW 1100px */
+/* ***************************************** */
+
+@media (max-width: 69em) {
+  .section-projects {
+    margin: 6.4rem 8rem 4.8rem 8rem;
+    padding: 4.8rem 2.4rem 2.4rem 4.8rem;
+  }
+}
+
+/* ***************************************** */
+/* BELOW 980px */
+/* ***************************************** */
+
+@media (max-width: 61em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .section-hero {
+    margin-left: 6.4rem;
+    margin-right: 4rem;
+  }
+
+  .title {
+    letter-spacing: 3px;
+  }
+
+  .section-projects {
+    margin: 6.4rem 6.4rem 4.8rem 6.4rem;
+    padding: 4.8rem 2.4rem 2.4rem 4.8rem;
+  }
+
+  .projects-title {
+    font-size: 4rem;
+    letter-spacing: 1.2px;
+  }
+
+  .project-title {
+    letter-spacing: 1.2px;
+    font-size: 2.4rem;
+  }
+
+  .description-text {
+    margin-bottom: 6.4rem;
+    line-height: 1.2;
+    font-size: 1.2rem;
+  }
+
+  .grid-2-cols {
+    padding: 2rem;
+    gap: 10rem;
+  }
+}
+
+/* ***************************************** */
+/* BELOW 750px */
+/* ***************************************** */
+
+@media (max-width: 49em) {
+  .header {
+    margin-left: 0;
+    padding: 2rem;
+  }
+
+  .sticky .header {
+    height: 6rem;
+  }
+
+  .main-nav {
+    padding-right: 3.2rem;
+  }
+
+  .main-nav-logo:link,
+  .main-nav-logo:visited {
+    font-size: 3.2rem;
+  }
+
+  .section-hero {
+    grid-template-columns: 2.5fr 1fr;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 2.4rem 6.4rem 6.4rem;
+  }
+
+  .title {
+    letter-spacing: 0.9px;
+  }
+
+  .section-projects {
+    margin: 0 0 0 0;
+    padding: 8rem 4rem 4rem 4rem;
+  }
+
+  .projects-title {
+    letter-spacing: 0.8px;
+  }
+
+  .project-title {
+    letter-spacing: 0.8px;
+  }
+
+  .description-text {
+    margin-bottom: 9.6rem;
+  }
+
+  .btn-inverted:link,
+  .btn-inverted:visited {
+    padding: 0.8rem 1.4rem;
+    font-size: 1.2rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    padding: 0.8rem 1.4rem;
+    font-size: 1.2rem;
+  }
+}
+
+/* ***************************************** */
+/* BELOW 630px */
+/* ***************************************** */
+
+@media (max-width: 40em) {
+  .section-hero {
+    grid-template-columns: 2.7fr 1fr;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 2rem 4rem 4rem;
+  }
+
+  .title {
+    letter-spacing: 1.6px;
+    font-size: 8rem;
+    font-weight: 600;
+    margin-bottom: rem;
+  }
+
+  .subtitle {
+    font-size: 4.4rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 12.8rem;
+  }
+
+  .hero-description {
+    margin-bottom: auto;
+    font-size: 2rem;
+  }
+
+  .contacts-container {
+    padding: 12.8rem 2.4rem 0 0;
+  }
+
+  .contacts-list {
+    gap: 4.4rem;
+  }
+
+  .grid-2-cols {
+    gap: 6rem 4rem;
+    padding: 1rem;
+    grid-template-columns: 1.5fr 2fr;
+  }
+}
+
+/* BELOW 524px */
+
+@media (max-width: 33em) {
+  .section-projects {
+    margin: 0 0 0 0;
+    padding: 6.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  .projects-title {
+    font-size: 3.2rem;
+    letter-spacing: 0.5px;
+  }
+
+  .project-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .grid-2-cols {
+    gap: 5rem 3rem;
+    padding: 1rem;
+  }
+}
+
+/* BELOW 464px */
+
+@media (max-width: 29em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .header {
+    height: 6.4rem;
+    margin-right: 0;
+  }
+
+  .main-nav {
+    padding-right: 2rem;
+  }
+
+  .sticky .header {
+    height: 6rem;
+  }
+
+  .section-hero {
+    grid-template-columns: 3fr 1fr;
+    height: 95vh;
+  }
+
+  .title {
+    /* margin-top: 8rem; */
+    letter-spacing: 1.4px;
+  }
+
+  .subtitle {
+    letter-spacing: 1.7px;
+    margin-bottom: 16rem;
+  }
+
+  .contacts-list {
+    gap: 5.6rem;
+  }
+}
