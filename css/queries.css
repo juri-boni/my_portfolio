@@ -104,18 +104,20 @@
 
   .section-hero {
     grid-template-columns: 2fr 1fr;
+    padding: 8rem 4rem 8rem 8rem;
   }
 
   .title {
     letter-spacing: 1px;
+    margin-bottom: 4rem;
   }
 
   .subtitle {
-    margin-bottom: 9.6rem;
+    margin-bottom: 8rem;
   }
 
   .hero-description {
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
   }
 
   .section-projects {
@@ -181,7 +183,7 @@
   }
 
   .contacts-container {
-    padding: 12.8rem 2.4rem 0 0;
+    padding: 8rem 2.4rem 0 0;
   }
 
   .contacts-list {
